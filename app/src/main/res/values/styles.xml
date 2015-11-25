@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:colorPrimaryDark" tools:targetApi="lollipop">@color/uno</item>
+        <item name="android:colorPrimary" tools:targetApi="lollipop">@color/dos</item>
+        <item name="android:textColorPrimary">@color/seis</item>
+        <item name="android:icon">@color/cuatro</item>
+        <item name="android:colorAccent" tools:targetApi="lollipop">@color/cinco</item>
+
+    </style>
+    <style name="Theme.DesignDemo" parent="Base.Theme.DesignDemo">
+    </style>
+
+    <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#673AB7</item>
+        <item name="colorPrimaryDark">#512DA8</item>
+        <item name="colorAccent">#FF4081</item>
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <color name="uno">#616161</color>
+    <color name="dos">#9E9E9E</color>
+    <color name="tres">#F5F5F5</color>
+    <color name="cuatro">#212121</color>
+    <color name="cinco">#795548</color>
+    <color name="seis">#212121</color>
+    <color name="siete">#727272</color>
+    <color name="ocho">#B6B6B6</color>
+</resources>
